@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dash-meetai-recording"
+version = "0.1.0"
+description = ""
+authors = ["Allan Ribeiro <ads_ribeiro@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^2.16.1"
+dash-mantine-components = "^0.14.0"
+dash-iconify = "^0.1.2"
+pyaudio = "^0.2.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
